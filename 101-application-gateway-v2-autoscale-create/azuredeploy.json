@@ -11,7 +11,7 @@
       },
       "vnetAddressPrefix":{
          "type":"string",
-         "defaultValue":"10.0.0.0/16",
+         "defaultValue":"12.0.0.0/16",
          "metadata":{
             "description":"Virtual Network address range"
          }
@@ -25,7 +25,7 @@
       },
       "subnetPrefix":{
          "type":"string",
-         "defaultValue":"10.0.0.0/24",
+         "defaultValue":"12.0.0.0/24",
          "metadata":{
             "description":"Subnet address range"
          }
@@ -62,10 +62,10 @@
          "type":"array",
          "defaultValue":[
             {
-               "IpAddress":"10.0.0.4"
+               "IpAddress":"12.0.0.4"
             },
             {
-               "IpAddress":"10.0.0.5"
+               "IpAddress":"12.0.0.5"
             }
          ],
          "metadata":{
